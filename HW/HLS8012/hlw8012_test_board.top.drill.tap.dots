@@ -1,0 +1,60 @@
+(.../romang/EAGLE/ulps/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../HLS8012/hlw8012_test_board.brd)
+(Current profile is .../EAGLE/ulps/profiles/generic.pp  )
+(This file generated 19.08.19 19:37)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1778 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.7000 	2.5400 	-0.1000 	-2.0000 )
+(spindle on time = 3.0000)
+(milling depth = -2.0000)
+(text depth = -0.1270)
+(tool change at 12.7000 15.2400 25.4000 )
+(feed rate xy = F200.00 )
+(feed rate z  = F254.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0000)
+(isolate max = 0.2000)
+(isolate step = 0.2000)
+(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  0.350mm 0.0138in 0.0000in 0.0000in )
+( T02  0.700mm 0.0276in 0.0000in 0.0000in )
+( T03  0.800mm 0.0315in 0.0000in 0.0000in )
+( T04  0.813mm 0.0320in 0.0000in 0.0000in )
+( T05  1.000mm 0.0394in 0.0000in 0.0000in )
+( T06  1.016mm 0.0400in 0.0000in 0.0000in )
+( T07  1.200mm 0.0472in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M03
+G04 P3.000000
+G00 Z2.540000
+G00 X3.1750 Y71.7550 
+G01 Z-4.0000 F254.00 
+G01 Z2.540000
+(R2.5400  P1.000000)
+(G00 Z2.540000)
+G00 X3.1750 Y1.9050 
+G01 Z-4.000000
+G01 Z2.540000
+(G00 Z2.540000)
+G00 X29.8450 Y71.7550 
+G01 Z-4.000000
+G01 Z2.540000
+(G00 Z2.540000)
+G00 X29.8450 Y1.9050 
+G01 Z-4.000000
+G01 Z2.540000
+T01 
+G00 Z12.7000 
+M05
+M02
