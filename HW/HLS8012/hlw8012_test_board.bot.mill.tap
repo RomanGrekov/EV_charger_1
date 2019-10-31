@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../HLS8012/hlw8012_test_board.brd)
 (Current profile is .../EAGLE/ulps/profiles/generic.pp  )
-(This file generated 19.08.19 19:37)
+(This file generated 03.10.19 07:33)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (2.0000 )
@@ -19,9 +19,9 @@
 (feed rate z  = F254.00 )
 (Settings from pcb-defaults.h)
 (isolate min = 0.0000)
-(isolate max = 0.2000)
+(isolate max = 1.0000)
 (isolate step = 0.2000)
-(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Generated top outlines, top drill, )
 (Unit of measure: mm)
 (Metric Mode)
 G21
@@ -31,12 +31,12 @@ G00 X0.0000 Y0.0000
 M03
 G04 P3.000000
 G00 Z2.5400 
-G00 X-1.9050 Y73.0250 
+G00 X-0.8890 Y1.6510 
 G01 Z-2.0000 F254.00 
-G01 X-31.1150 Y73.0250 F200.00 
-G01 X-31.1150 Y0.6350 
-G01 X-1.9050 Y0.6350 
-G01 X-1.9050 Y73.0250 
+G01 X-0.8890 Y30.8610 F200.00 
+G01 X-68.9610 Y30.8610 
+G01 X-68.9610 Y1.6510 
+G01 X-0.8890 Y1.6510 
 G00 Z12.7000 
 M05
 M02

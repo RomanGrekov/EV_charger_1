@@ -57,3 +57,6 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 
+# Map files for candle
+*.map
+

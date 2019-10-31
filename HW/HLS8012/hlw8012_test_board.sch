@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -227,835 +227,6 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="dc-dc-converter" urn="urn:adsk.eagle:library:208">
-<description>&lt;b&gt;DC-DC Converters&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="4SIL" urn="urn:adsk.eagle:footprint:12297/1" library_version="1">
-<description>&lt;b&gt;4 Pin DIL Package&lt;/b&gt;&lt;p&gt;
-Motien Technology Co.,Ltd.&lt;br&gt;
-Source: va-serie.pdf.pdf</description>
-<wire x1="5.75" y1="-1.15" x2="-5.75" y2="-1.15" width="0.2032" layer="21"/>
-<wire x1="-5.75" y1="-1.15" x2="-5.75" y2="3.65" width="0.2032" layer="21"/>
-<wire x1="-5.75" y1="3.65" x2="5.75" y2="3.65" width="0.2032" layer="21"/>
-<wire x1="5.75" y1="3.65" x2="5.75" y2="-1.15" width="0.2032" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8"/>
-<pad name="2" x="-1.27" y="0" drill="0.8"/>
-<pad name="3" x="1.27" y="0" drill="0.8"/>
-<pad name="4" x="3.81" y="0" drill="0.8"/>
-<text x="-5.08" y="5.08" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="8DIL-4" urn="urn:adsk.eagle:footprint:12298/1" library_version="1">
-<description>&lt;b&gt;8 DIL Package&lt;/b&gt; 4 Pads&lt;p&gt;
-Motien Technology Co.,Ltd.&lt;br&gt;
-Source: va-serie.pdf.pdf</description>
-<wire x1="-6.2484" y1="-4.9784" x2="-6.2484" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="-6.2484" y1="4.9784" x2="6.2484" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="6.2484" y1="4.9784" x2="6.2484" y2="-4.9784" width="0.2032" layer="21"/>
-<wire x1="6.2484" y1="-4.9784" x2="-6.2484" y2="-4.9784" width="0.2032" layer="21"/>
-<circle x="-5.2197" y="-2.8067" radius="0.6477" width="0" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.7" diameter="1.27"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.7" diameter="1.27"/>
-<pad name="5" x="3.81" y="3.81" drill="0.7" diameter="1.27"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.7" diameter="1.27"/>
-<text x="-5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="8DIL-6" urn="urn:adsk.eagle:footprint:12296/1" library_version="1">
-<description>&lt;b&gt;8 DIL Package&lt;/b&gt; 6 Pads&lt;p&gt;
-Motien Technology Co.,Ltd.&lt;br&gt;
-Source: VA-D01.pdf</description>
-<wire x1="-6.2484" y1="-4.9784" x2="-6.2484" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="-6.2484" y1="4.9784" x2="6.2484" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="6.2484" y1="4.9784" x2="6.2484" y2="-4.9784" width="0.2032" layer="21"/>
-<wire x1="6.2484" y1="-4.9784" x2="-6.2484" y2="-4.9784" width="0.2032" layer="21"/>
-<circle x="-5.2197" y="-2.8067" radius="0.6477" width="0" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.7" diameter="1.27"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.7" diameter="1.27"/>
-<pad name="5" x="3.81" y="3.81" drill="0.7" diameter="1.27"/>
-<pad name="6" x="1.27" y="3.81" drill="0.7" diameter="1.27"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.7" diameter="1.27"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.7" diameter="1.27"/>
-<text x="-5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="4SIL" urn="urn:adsk.eagle:package:12316/1" type="box" library_version="1">
-<description>4 Pin DIL Package
-Motien Technology Co.,Ltd.
-Source: va-serie.pdf.pdf</description>
-<packageinstances>
-<packageinstance name="4SIL"/>
-</packageinstances>
-</package3d>
-<package3d name="8DIL-4" urn="urn:adsk.eagle:package:12315/1" type="box" library_version="1">
-<description>8 DIL Package 4 Pads
-Motien Technology Co.,Ltd.
-Source: va-serie.pdf.pdf</description>
-<packageinstances>
-<packageinstance name="8DIL-4"/>
-</packageinstances>
-</package3d>
-<package3d name="8DIL-6" urn="urn:adsk.eagle:package:12314/1" type="box" library_version="1">
-<description>8 DIL Package 6 Pads
-Motien Technology Co.,Ltd.
-Source: VA-D01.pdf</description>
-<packageinstances>
-<packageinstance name="8DIL-6"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="DC+" urn="urn:adsk.eagle:symbol:12287/1" library_version="1">
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.4064" layer="94"/>
-<text x="-10.16" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-8.636" y="-6.731" size="1.27" layer="94">DC/DC CONVERTER</text>
-<pin name="+VIN" x="-12.7" y="2.54" length="short" direction="pas"/>
-<pin name="-VIN" x="-12.7" y="-2.54" length="short" direction="pas"/>
-<pin name="+VOUT" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="-VOUT" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="VA-*?" urn="urn:adsk.eagle:component:12337/1" prefix="DC" library_version="1">
-<description>&lt;b&gt;DC DC Converter&lt;/b&gt; Single Output, 1 Watt&lt;p&gt;
-Motien Technology Co.,Ltd.&lt;br&gt;
-Source: &lt;a href="http://www.motien.com.tw/data_sheet/VA-1%28H%29.pdf"&gt; Data sheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="DC+" x="0" y="0"/>
-</gates>
-<devices>
-<device name="S1" package="4SIL">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D1" package="8DIL-4">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="4"/>
-<connect gate="G$1" pin="+VOUT" pad="5"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12315/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S" package="4SIL">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D" package="8DIL-4">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="4"/>
-<connect gate="G$1" pin="+VOUT" pad="5"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12315/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DD1" package="8DIL-6">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="4"/>
-<connect gate="G$1" pin="+VOUT" pad="5"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12314/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S1.5" package="4SIL">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="4"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="D1.5" package="8DIL-6">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="4"/>
-<connect gate="G$1" pin="+VOUT" pad="5"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12314/1"/>
-</package3dinstances>
-<technologies>
-<technology name="0505">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0509">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0512">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0515">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="0524">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1205">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1209">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1212">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1215">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="1224">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2405">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2409">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2412">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2415">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="2424">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -17590,12 +16761,427 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="led" urn="urn:adsk.eagle:library:259">
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="VDD" urn="urn:adsk.eagle:symbol:39424/1" library_version="1">
+<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VDD" urn="urn:adsk.eagle:component:39445/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Positive voltage supply (traditionally for a CMOS device, D=drain).&lt;/p&gt;</description>
+<gates>
+<gate name="VDD" symbol="VDD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="con-ptr500" urn="urn:adsk.eagle:library:181">
+<description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
+Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
+Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
+Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
+&lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Alte Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Neue Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2,grau&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2-5.0-H-GRAU&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2DS,grau&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2DS-5.0-H-GRAU&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AKZ505/2,grau&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=LEFT&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AKZ500/2-5.08-H-GRAU&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+  &lt;/TABLE&gt;
+
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="AK300/4" urn="urn:adsk.eagle:footprint:9844/1" library_version="2">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
+<wire x1="-10.0838" y1="6.223" x2="0" y2="6.223" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="-6.223" x2="-4.4958" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="0.254" x2="-0.4318" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="-6.223" x2="-0.4318" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="-6.223" x2="0" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="-6.223" x2="-5.5118" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="-6.223" x2="-4.4958" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-9.5758" y1="0.254" x2="-9.5758" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-10.0838" y1="-6.223" x2="-9.5758" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-9.5758" y1="-6.223" x2="-5.5118" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="-4.318" x2="-0.4318" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="-4.318" x2="-4.4958" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="-4.318" x2="-0.4318" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="-4.318" x2="-9.5758" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="-4.318" x2="-5.5118" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-9.5758" y1="-4.318" x2="-9.5758" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="-0.8128" y1="-3.683" x2="-0.8128" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-0.8128" y1="-3.683" x2="-4.1148" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-4.1148" y1="-3.683" x2="-4.1148" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-5.8928" y1="-3.683" x2="-5.8928" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-5.8928" y1="-3.683" x2="-9.1948" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-9.1948" y1="-3.683" x2="-9.1948" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-9.1948" y1="-0.508" x2="-8.8138" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-5.8928" y1="-0.508" x2="-6.2738" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-4.1148" y1="-0.508" x2="-3.7338" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-0.8128" y1="-0.508" x2="-1.1938" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-10.0838" y1="-6.223" x2="-10.0838" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-10.0838" y1="0.635" x2="-10.0838" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-10.0838" y1="3.175" x2="0" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-10.0838" y1="3.175" x2="-10.0838" y2="6.223" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="3.429" x2="-4.4958" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="5.969" x2="-0.4318" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="5.969" x2="-0.4318" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="3.429" x2="-4.4958" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="3.429" x2="-5.5118" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="3.429" x2="-9.5758" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="-9.5758" y1="3.429" x2="-9.5758" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="5.969" x2="-9.5758" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="-0.9956" y1="4.0849" x2="-0.9399" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
+<wire x1="-3.937" y1="4.1656" x2="-0.9492" y2="4.1188" width="0.1524" layer="21" curve="75.528719"/>
+<wire x1="-4.0894" y1="5.0038" x2="-0.935" y2="5.0588" width="0.1524" layer="21" curve="-100.022513"/>
+<wire x1="-4.0386" y1="5.0546" x2="-3.8949" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
+<wire x1="-4.0894" y1="4.445" x2="-1.0414" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-3.9624" y1="4.318" x2="-0.9144" y2="4.953" width="0.1524" layer="21"/>
+<wire x1="-6.0756" y1="4.0849" x2="-6.0199" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
+<wire x1="-9.017" y1="4.1656" x2="-6.0292" y2="4.1188" width="0.1524" layer="21" curve="75.528719"/>
+<wire x1="-9.1694" y1="5.0038" x2="-6.015" y2="5.0588" width="0.1524" layer="21" curve="-100.022513"/>
+<wire x1="-9.1186" y1="5.0546" x2="-8.9749" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
+<wire x1="-9.1694" y1="4.445" x2="-6.1214" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="-9.0424" y1="4.318" x2="-5.9944" y2="4.953" width="0.1524" layer="21"/>
+<wire x1="-9.5758" y1="0.254" x2="-9.0678" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-5.5118" y1="0.254" x2="-5.8928" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-5.8928" y1="0.254" x2="-9.0678" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-10.0838" y1="0.635" x2="-9.0678" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-9.0678" y1="0.635" x2="-5.8928" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-5.8928" y1="0.635" x2="-4.1148" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.9398" y1="0.635" x2="-4.1148" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.4318" y1="0.254" x2="-0.9398" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-4.4958" y1="0.254" x2="-4.1148" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-4.1148" y1="0.254" x2="-0.9398" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="10.0838" y1="6.223" x2="10.0838" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="6.223" x2="10.5918" y2="6.223" width="0.1524" layer="21"/>
+<wire x1="10.5918" y1="6.223" x2="10.5918" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="10.5918" y1="1.397" x2="10.0838" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="10.5918" y1="-5.461" x2="10.0838" y2="-5.207" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="-5.207" x2="10.0838" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="10.5918" y1="-3.81" x2="10.0838" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="-4.064" x2="10.0838" y2="-5.207" width="0.1524" layer="21"/>
+<wire x1="10.5918" y1="-3.81" x2="10.5918" y2="-5.461" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-6.223" x2="5.5118" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="9.5758" y1="0.254" x2="9.5758" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-6.223" x2="9.5758" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="9.5758" y1="-6.223" x2="10.0838" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="-6.223" x2="4.4958" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="-6.223" x2="5.5118" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="0.254" x2="0.4318" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="-6.223" x2="4.4958" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-4.318" x2="9.5758" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="-4.318" x2="5.5118" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="9.5758" y1="-4.318" x2="9.5758" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="-4.318" x2="0.4318" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="-4.318" x2="4.4958" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="-4.318" x2="0.4318" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="9.1948" y1="-3.683" x2="9.1948" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="9.1948" y1="-3.683" x2="5.8928" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="5.8928" y1="-3.683" x2="5.8928" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="4.1148" y1="-3.683" x2="4.1148" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="4.1148" y1="-3.683" x2="0.8128" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="0.8128" y1="-3.683" x2="0.8128" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.8128" y1="-0.508" x2="1.1938" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="4.1148" y1="-0.508" x2="3.7338" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="5.8928" y1="-0.508" x2="6.2738" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="9.1948" y1="-0.508" x2="8.8138" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0" y1="-6.223" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="1.651" x2="10.0838" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="0.635" x2="10.0838" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="0" y1="3.175" x2="10.0838" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="0" y1="3.175" x2="0" y2="6.223" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="3.175" x2="10.0838" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="3.429" x2="5.5118" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="5.969" x2="9.5758" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="9.5758" y1="5.969" x2="9.5758" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="9.5758" y1="3.429" x2="5.5118" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="3.429" x2="4.4958" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="3.429" x2="0.4318" y2="3.429" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="3.429" x2="0.4318" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="5.969" x2="0.4318" y2="5.969" width="0.1524" layer="21"/>
+<wire x1="9.012" y1="4.0849" x2="9.0677" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
+<wire x1="6.0706" y1="4.1656" x2="9.0584" y2="4.1189" width="0.1524" layer="21" curve="75.530157"/>
+<wire x1="5.9182" y1="5.0038" x2="9.0724" y2="5.0586" width="0.1524" layer="21" curve="-100.0232"/>
+<wire x1="5.969" y1="5.0546" x2="6.1127" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
+<wire x1="5.9182" y1="4.445" x2="8.9662" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="6.0452" y1="4.318" x2="9.0932" y2="4.953" width="0.1524" layer="21"/>
+<wire x1="3.932" y1="4.0849" x2="3.9877" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
+<wire x1="0.9906" y1="4.1656" x2="3.9784" y2="4.1189" width="0.1524" layer="21" curve="75.530157"/>
+<wire x1="0.8382" y1="5.0038" x2="3.9924" y2="5.0586" width="0.1524" layer="21" curve="-100.0232"/>
+<wire x1="0.889" y1="5.0546" x2="1.0327" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
+<wire x1="0.8382" y1="4.445" x2="3.8862" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="0.9652" y1="4.318" x2="4.0132" y2="4.953" width="0.1524" layer="21"/>
+<wire x1="0.4318" y1="0.254" x2="0.9398" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="4.4958" y1="0.254" x2="4.1148" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="4.1148" y1="0.254" x2="0.9398" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.635" x2="0.9398" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.9398" y1="0.635" x2="4.1148" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="4.1148" y1="0.635" x2="5.8928" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="0.635" x2="9.0678" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="9.0678" y1="0.635" x2="5.8928" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="9.5758" y1="0.254" x2="9.0678" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="5.5118" y1="0.254" x2="5.8928" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="5.8928" y1="0.254" x2="9.0678" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="0" y1="-6.223" x2="0.4318" y2="-6.223" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-0.9398" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="10.0838" y1="6.223" x2="0" y2="6.223" width="0.1524" layer="21"/>
+<pad name="1" x="-7.493" y="0" drill="1.3208" shape="long" rot="R90"/>
+<pad name="2" x="-2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
+<pad name="3" x="2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
+<pad name="4" x="7.493" y="0" drill="1.3208" shape="long" rot="R90"/>
+<text x="-10.0838" y="6.731" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-10.0838" y="-8.636" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-9.525" y="1.27" size="1.27" layer="21" ratio="10">1</text>
+<text x="-4.445" y="1.27" size="1.27" layer="21" ratio="10">2</text>
+<text x="0.635" y="1.27" size="1.27" layer="21" ratio="10">3</text>
+<text x="5.715" y="1.27" size="1.27" layer="21" ratio="10">4</text>
+<rectangle x1="-8.8138" y1="-2.54" x2="-6.2738" y2="0.254" layer="51"/>
+<rectangle x1="-3.7338" y1="-2.54" x2="-1.1938" y2="0.254" layer="51"/>
+<rectangle x1="1.1938" y1="-2.54" x2="3.7338" y2="0.254" layer="51"/>
+<rectangle x1="6.2738" y1="-2.54" x2="8.8138" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="AK300/4" urn="urn:adsk.eagle:package:9879/1" type="box" library_version="2">
+<description>CONNECTOR</description>
+<packageinstances>
+<packageinstance name="AK300/4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="KL" urn="urn:adsk.eagle:symbol:9841/1" library_version="2">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="KLV" urn="urn:adsk.eagle:symbol:9842/1" library_version="2">
+<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-3.81" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AK300/4" urn="urn:adsk.eagle:component:9909/2" prefix="X" uservalue="yes" library_version="2">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="KL" x="0" y="7.62" addlevel="always"/>
+<gate name="-2" symbol="KL" x="0" y="2.54" addlevel="always"/>
+<gate name="-3" symbol="KL" x="0" y="-2.54" addlevel="always"/>
+<gate name="-4" symbol="KLV" x="0" y="-7.62" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="AK300/4">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+<connect gate="-3" pin="KL" pad="3"/>
+<connect gate="-4" pin="KL" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9879/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="resistor-shunt">
+<description>&lt;b&gt;Isabellenhuette SMD Shunt Resistors&lt;/b&gt;&lt;p&gt;
+www.isabellenhuette.de&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="PMD" urn="urn:adsk.eagle:footprint:25201/1" locally_modified="yes">
+<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
+<wire x1="-7.44" y1="-4.297" x2="7.948" y2="-4.297" width="0.2032" layer="21"/>
+<wire x1="7.948" y1="-4.297" x2="7.948" y2="3.789" width="0.2032" layer="21"/>
+<wire x1="7.948" y1="3.789" x2="-7.44" y2="3.789" width="0.2032" layer="21"/>
+<wire x1="-7.44" y1="3.789" x2="-7.44" y2="-4.297" width="0.2032" layer="21"/>
+<smd name="2" x="-4.7498" y="-0.254" dx="5" dy="7.5" layer="1"/>
+<smd name="1" x="5.2578" y="-0.254" dx="5" dy="7.5" layer="1"/>
+<text x="-3.3274" y="4.699" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.9972" y="-6.1214" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="PMD" urn="urn:adsk.eagle:package:25216/1" type="box">
+<description>SMD SHUNT RESISTOR</description>
+<packageinstances>
+<packageinstance name="PMD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="R">
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PMD" prefix="R" uservalue="yes">
+<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0" swaplevel="2"/>
+</gates>
+<devices>
+<device name="" package="PMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25216/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="led">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
-<package name="1206" urn="urn:adsk.eagle:footprint:15651/1" library_version="4">
+<package name="LED3MM" urn="urn:adsk.eagle:footprint:15654/1" locally_modified="yes">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.778" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.778" shape="square"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="1206" urn="urn:adsk.eagle:footprint:15651/1">
 <description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
 7022X Series SMT LEDs 1206 Package Size</description>
 <wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
@@ -17618,7 +17204,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
 <rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
 </package>
-<package name="LD260" urn="urn:adsk.eagle:footprint:15652/1" library_version="4">
+<package name="LD260" urn="urn:adsk.eagle:footprint:15652/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, square, Siemens</description>
 <wire x1="-1.27" y1="-1.27" x2="0" y2="-1.27" width="0.1524" layer="21"/>
@@ -17652,7 +17238,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="1.27" y1="-0.635" x2="2.032" y2="0.635" layer="51"/>
 <rectangle x1="1.905" y1="-0.635" x2="2.032" y2="0.635" layer="21"/>
 </package>
-<package name="LED2X5" urn="urn:adsk.eagle:footprint:15653/1" library_version="4">
+<package name="LED2X5" urn="urn:adsk.eagle:footprint:15653/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 2 x 5 mm, rectangle</description>
 <wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
@@ -17680,34 +17266,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <text x="-2.54" y="-2.413" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.159" y1="-1.27" x2="2.413" y2="1.27" layer="21"/>
 </package>
-<package name="LED3MM" urn="urn:adsk.eagle:footprint:15654/1" library_version="4">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-3 mm, round</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
-<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
-<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
-<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
-<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
-<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
-<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
-<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="LED5MM" urn="urn:adsk.eagle:footprint:15655/1" library_version="4">
+<package name="LED5MM" urn="urn:adsk.eagle:footprint:15655/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -17724,7 +17283,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="LSU260" urn="urn:adsk.eagle:footprint:15656/1" library_version="4">
+<package name="LSU260" urn="urn:adsk.eagle:footprint:15656/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 1 mm, round, Siemens</description>
 <wire x1="0" y1="-0.508" x2="-1.143" y2="-0.508" width="0.1524" layer="51"/>
@@ -17755,7 +17314,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="-1.397" y1="-0.254" x2="-1.143" y2="0.254" layer="51"/>
 <rectangle x1="0.508" y1="-0.254" x2="1.397" y2="0.254" layer="51"/>
 </package>
-<package name="LZR181" urn="urn:adsk.eagle:footprint:15657/1" library_version="4">
+<package name="LZR181" urn="urn:adsk.eagle:footprint:15657/1">
 <description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
 1 LED, Siemens</description>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
@@ -17785,7 +17344,7 @@ Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternationa
 <rectangle x1="1.27" y1="-0.889" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.27" y2="0.254" layer="51"/>
 </package>
-<package name="Q62902-B152" urn="urn:adsk.eagle:footprint:15658/1" library_version="4">
+<package name="Q62902-B152" urn="urn:adsk.eagle:footprint:15658/1">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
 Siemens</description>
 <wire x1="-2.9718" y1="-1.8542" x2="-2.9718" y2="-0.254" width="0.1524" layer="21"/>
@@ -17826,7 +17385,7 @@ Siemens</description>
 <text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="-3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="Q62902-B153" urn="urn:adsk.eagle:footprint:15659/1" library_version="4">
+<package name="Q62902-B153" urn="urn:adsk.eagle:footprint:15659/1">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
 Siemens</description>
 <wire x1="-5.5118" y1="-3.5052" x2="-5.5118" y2="-0.254" width="0.1524" layer="21"/>
@@ -17856,7 +17415,7 @@ Siemens</description>
 <text x="-4.191" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.318" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="Q62902-B155" urn="urn:adsk.eagle:footprint:15660/1" library_version="4">
+<package name="Q62902-B155" urn="urn:adsk.eagle:footprint:15660/1">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
 Siemens</description>
 <wire x1="-1.27" y1="-3.048" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
@@ -17884,7 +17443,7 @@ Siemens</description>
 <rectangle x1="2.921" y1="-1.524" x2="6.731" y2="-1.016" layer="21"/>
 <hole x="0" y="0" drill="0.8128"/>
 </package>
-<package name="Q62902-B156" urn="urn:adsk.eagle:footprint:15661/1" library_version="4">
+<package name="Q62902-B156" urn="urn:adsk.eagle:footprint:15661/1">
 <description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
 Siemens</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
@@ -17912,7 +17471,7 @@ Siemens</description>
 <text x="-3.556" y="-3.302" size="1.016" layer="21" ratio="14">+</text>
 <text x="2.794" y="-3.302" size="1.016" layer="21" ratio="14">-</text>
 </package>
-<package name="SFH480" urn="urn:adsk.eagle:footprint:15662/1" library_version="4">
+<package name="SFH480" urn="urn:adsk.eagle:footprint:15662/1">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
@@ -17939,7 +17498,7 @@ Inifineon</description>
 <text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SFH482" urn="urn:adsk.eagle:footprint:15650/1" library_version="4">
+<package name="SFH482" urn="urn:adsk.eagle:footprint:15650/1">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
@@ -17966,7 +17525,7 @@ Inifineon</description>
 <text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="U57X32" urn="urn:adsk.eagle:footprint:15640/1" library_version="4">
+<package name="U57X32" urn="urn:adsk.eagle:footprint:15640/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 rectangle, 5.7 x 3.2 mm</description>
 <wire x1="-3.175" y1="1.905" x2="3.175" y2="1.905" width="0.1524" layer="21"/>
@@ -17997,7 +17556,7 @@ rectangle, 5.7 x 3.2 mm</description>
 <text x="3.683" y="0.254" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.683" y="-1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="IRL80A" urn="urn:adsk.eagle:footprint:15663/1" library_version="4">
+<package name="IRL80A" urn="urn:adsk.eagle:footprint:15663/1">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
 IR transmitter Siemens</description>
 <wire x1="0.889" y1="2.286" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
@@ -18020,7 +17579,7 @@ IR transmitter Siemens</description>
 <text x="1.27" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.27" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="P-LCC-2" urn="urn:adsk.eagle:footprint:15664/1" library_version="4">
+<package name="P-LCC-2" urn="urn:adsk.eagle:footprint:15664/1">
 <description>&lt;b&gt;TOPLED® High-optical Power LED (HOP)&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
 <wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
@@ -18053,7 +17612,7 @@ Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
 <rectangle x1="-1.4" y1="0.65" x2="1.4" y2="2.35" layer="29"/>
 <rectangle x1="-1.4" y1="-2.35" x2="1.4" y2="-0.65" layer="29"/>
 </package>
-<package name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:footprint:15665/1" library_version="4">
+<package name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:footprint:15665/1">
 <description>&lt;b&gt;BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
 <wire x1="-0.6" y1="0.9" x2="-0.6" y2="-0.7" width="0.1016" layer="51"/>
@@ -18080,7 +17639,7 @@ Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
 <rectangle x1="-0.45" y1="0.65" x2="0.45" y2="1.35" layer="31"/>
 <rectangle x1="-0.45" y1="-1.35" x2="0.45" y2="-0.65" layer="31"/>
 </package>
-<package name="OSRAM-SIDELED" urn="urn:adsk.eagle:footprint:15666/1" library_version="4">
+<package name="OSRAM-SIDELED" urn="urn:adsk.eagle:footprint:15666/1">
 <description>&lt;b&gt;Super SIDELED® High-Current LED&lt;/b&gt;&lt;p&gt;
 LG A672, LP A672 &lt;br&gt;
 Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
@@ -18113,7 +17672,7 @@ Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</descripti
 <rectangle x1="-1.9" y1="0.6" x2="1.9" y2="2.1" layer="31"/>
 <rectangle x1="-1.85" y1="-2.05" x2="-0.7" y2="-1" layer="51"/>
 </package>
-<package name="SMART-LED" urn="urn:adsk.eagle:footprint:15667/1" library_version="4">
+<package name="SMART-LED" urn="urn:adsk.eagle:footprint:15667/1">
 <description>&lt;b&gt;SmartLEDTM Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
 <wire x1="-0.35" y1="0.6" x2="0.35" y2="0.6" width="0.1016" layer="51" style="shortdash"/>
@@ -18130,7 +17689,7 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
 <rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.85" layer="51"/>
 <rectangle x1="-0.15" y1="-0.85" x2="0.15" y2="-0.6" layer="51"/>
 </package>
-<package name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:footprint:15668/1" library_version="4">
+<package name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:footprint:15668/1">
 <description>&lt;b&gt;Hyper TOPLED® RG Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
 <wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
@@ -18164,7 +17723,7 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
 <rectangle x1="-1.5" y1="-3.2" x2="1.5" y2="-1.5" layer="29"/>
 <hole x="0" y="0" drill="2.8"/>
 </package>
-<package name="MICRO-SIDELED" urn="urn:adsk.eagle:footprint:15669/1" library_version="4">
+<package name="MICRO-SIDELED" urn="urn:adsk.eagle:footprint:15669/1">
 <description>&lt;b&gt;Hyper Micro SIDELED®&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
 <wire x1="0.65" y1="1.1" x2="-0.1" y2="1.1" width="0.1016" layer="51"/>
@@ -18187,7 +17746,7 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
 <rectangle x1="-0.125" y1="1.125" x2="0.125" y2="1.75" layer="51"/>
 <rectangle x1="-0.125" y1="-1.75" x2="0.125" y2="-1.125" layer="51"/>
 </package>
-<package name="P-LCC-4" urn="urn:adsk.eagle:footprint:15670/1" library_version="4">
+<package name="P-LCC-4" urn="urn:adsk.eagle:footprint:15670/1">
 <description>&lt;b&gt;Power TOPLED®&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
@@ -18234,7 +17793,7 @@ Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <rectangle x1="-1.1" y1="0.8" x2="-0.4" y2="1.8" layer="31"/>
 <rectangle x1="-0.2" y1="-0.2" x2="0.2" y2="0.2" layer="21"/>
 </package>
-<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:15671/1" library_version="4">
+<package name="CHIP-LED0603" urn="urn:adsk.eagle:footprint:15671/1">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
 LB Q993&lt;br&gt;
 Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
@@ -18250,7 +17809,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <rectangle x1="0.3" y1="0" x2="0.45" y2="0.3" layer="21"/>
 <rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
 </package>
-<package name="CHIP-LED0805" urn="urn:adsk.eagle:footprint:15672/1" library_version="4">
+<package name="CHIP-LED0805" urn="urn:adsk.eagle:footprint:15672/1">
 <description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
 LB R99A&lt;br&gt;
 Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
@@ -18266,7 +17825,7 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
 <rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
 </package>
-<package name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:footprint:15673/1" library_version="4">
+<package name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:footprint:15673/1">
 <description>&lt;b&gt;Mini TOPLED Santana®&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <wire x1="0.7" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="21"/>
@@ -18295,7 +17854,7 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <rectangle x1="-0.5" y1="-1.4" x2="0.5" y2="-1.05" layer="21"/>
 <hole x="0" y="0" drill="2.7"/>
 </package>
-<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:15674/1" library_version="4">
+<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:15674/1">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
@@ -18320,7 +17879,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
 <rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 </package>
-<package name="CHIPLED_1206" urn="urn:adsk.eagle:footprint:15675/1" library_version="4">
+<package name="CHIPLED_1206" urn="urn:adsk.eagle:footprint:15675/1">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="51" curve="172.619069"/>
@@ -18343,7 +17902,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
 <rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 </package>
-<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1" library_version="4">
+<package name="CHIPLED_0603" urn="urn:adsk.eagle:footprint:15676/1">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <wire x1="-0.3" y1="0.8" x2="0.3" y2="0.8" width="0.1016" layer="51" curve="170.055574"/>
@@ -18367,7 +17926,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
 <rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
 </package>
-<package name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:footprint:15677/1" library_version="4">
+<package name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:footprint:15677/1">
 <description>&lt;b&gt;CHIPLED-0603&lt;/b&gt;&lt;p&gt;
 Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
 Package able to withstand TTW-soldering heat&lt;br&gt;
@@ -18400,7 +17959,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="-0.4" y1="-1.125" x2="0.4" y2="-0.625" layer="29"/>
 <rectangle x1="-0.175" y1="-0.675" x2="0.175" y2="-0.325" layer="29"/>
 </package>
-<package name="SMARTLED-TTW" urn="urn:adsk.eagle:footprint:15678/1" library_version="4">
+<package name="SMARTLED-TTW" urn="urn:adsk.eagle:footprint:15678/1">
 <description>&lt;b&gt;SmartLED TTW&lt;/b&gt;&lt;p&gt;
 Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
 Package able to withstand TTW-soldering heat&lt;br&gt;
@@ -18426,7 +17985,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="-0.175" y1="-0.7" x2="0.175" y2="-0.325" layer="29" rot="R180"/>
 <rectangle x1="-0.225" y1="-0.975" x2="0.225" y2="-0.3" layer="31" rot="R180"/>
 </package>
-<package name="LUMILED+" urn="urn:adsk.eagle:footprint:15679/1" library_version="4">
+<package name="LUMILED+" urn="urn:adsk.eagle:footprint:15679/1">
 <description>&lt;b&gt;Lumileds Lighting. LUXEON®&lt;/b&gt; with cool pad&lt;p&gt;
 Source: K2.pdf</description>
 <wire x1="-3.575" y1="2.3375" x2="-2.3375" y2="3.575" width="0.2032" layer="21"/>
@@ -18478,7 +18037,7 @@ Source: K2.pdf</description>
 <vertex x="2.3383" y="-1.35"/>
 </polygon>
 </package>
-<package name="LUMILED" urn="urn:adsk.eagle:footprint:15680/1" library_version="4">
+<package name="LUMILED" urn="urn:adsk.eagle:footprint:15680/1">
 <description>&lt;b&gt;Lumileds Lighting. LUXEON®&lt;/b&gt; without cool pad&lt;p&gt;
 Source: K2.pdf</description>
 <wire x1="-3.575" y1="2.3375" x2="-2.3375" y2="3.575" width="0.2032" layer="21"/>
@@ -18522,7 +18081,7 @@ Source: K2.pdf</description>
 <vertex x="2.3383" y="-1.35"/>
 </polygon>
 </package>
-<package name="LED10MM" urn="urn:adsk.eagle:footprint:15681/1" library_version="4">
+<package name="LED10MM" urn="urn:adsk.eagle:footprint:15681/1">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 10 mm, round</description>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="21" curve="-306.869898"/>
@@ -18541,7 +18100,7 @@ Source: K2.pdf</description>
 <text x="6.35" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="6.35" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="KA-3528ASYC" urn="urn:adsk.eagle:footprint:15682/1" library_version="4">
+<package name="KA-3528ASYC" urn="urn:adsk.eagle:footprint:15682/1">
 <description>&lt;b&gt;SURFACE MOUNT LED LAMP&lt;/b&gt; 3.5x2.8mm&lt;p&gt;
 Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1)</description>
 <wire x1="-1.55" y1="1.35" x2="1.55" y2="1.35" width="0.1016" layer="21"/>
@@ -18571,7 +18130,7 @@ Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1
 <vertex x="0.825" y="-1.35"/>
 </polygon>
 </package>
-<package name="SML0805" urn="urn:adsk.eagle:footprint:15683/1" library_version="4">
+<package name="SML0805" urn="urn:adsk.eagle:footprint:15683/1">
 <description>&lt;b&gt;SML0805-2CW-TR (0805 PROFILE)&lt;/b&gt; COOL WHITE&lt;p&gt;
 Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.1016" layer="51"/>
@@ -18588,7 +18147,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SML1206" urn="urn:adsk.eagle:footprint:15684/1" library_version="4">
+<package name="SML1206" urn="urn:adsk.eagle:footprint:15684/1">
 <description>&lt;b&gt;SML10XXKH-TR (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;td&gt;SML10R3KH-TR&lt;/td&gt;&lt;td&gt;ULTRA RED&lt;/td&gt;&lt;/tr&gt;
@@ -18620,7 +18179,7 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <rectangle x1="1" y1="0.275" x2="1.175" y2="0.6" layer="51" rot="R180"/>
 <rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
 </package>
-<package name="SML0603" urn="urn:adsk.eagle:footprint:15685/1" library_version="4">
+<package name="SML0603" urn="urn:adsk.eagle:footprint:15685/1">
 <description>&lt;b&gt;SML0603-XXX (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;td&gt;AG3K&lt;/td&gt;&lt;td&gt;AQUA GREEN&lt;/td&gt;&lt;/tr&gt;
@@ -18651,84 +18210,84 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model" library_version="4">
-<description>CHICAGO MINIATURE LAMP, INC.
-7022X Series SMT LEDs 1206 Package Size</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
-<package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box" library_version="4">
-<description>LED
-5 mm, square, Siemens</description>
-<packageinstances>
-<packageinstance name="LD260"/>
-</packageinstances>
-</package3d>
-<package3d name="LED2X5" urn="urn:adsk.eagle:package:15800/1" type="box" library_version="4">
-<description>LED
-2 x 5 mm, rectangle</description>
-<packageinstances>
-<packageinstance name="LED2X5"/>
-</packageinstances>
-</package3d>
-<package3d name="LED3MM" urn="urn:adsk.eagle:package:15797/1" type="box" library_version="4">
+<package3d name="LED3MM" urn="urn:adsk.eagle:package:15797/1" locally_modified="yes" type="box">
 <description>LED
 3 mm, round</description>
 <packageinstances>
 <packageinstance name="LED3MM"/>
 </packageinstances>
 </package3d>
-<package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/2" type="model" library_version="4">
+<package3d name="1206" urn="urn:adsk.eagle:package:15796/2" type="model">
+<description>CHICAGO MINIATURE LAMP, INC.
+7022X Series SMT LEDs 1206 Package Size</description>
+<packageinstances>
+<packageinstance name="1206"/>
+</packageinstances>
+</package3d>
+<package3d name="LD260" urn="urn:adsk.eagle:package:15794/1" type="box">
+<description>LED
+5 mm, square, Siemens</description>
+<packageinstances>
+<packageinstance name="LD260"/>
+</packageinstances>
+</package3d>
+<package3d name="LED2X5" urn="urn:adsk.eagle:package:15800/1" type="box">
+<description>LED
+2 x 5 mm, rectangle</description>
+<packageinstances>
+<packageinstance name="LED2X5"/>
+</packageinstances>
+</package3d>
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/2" type="model">
 <description>LED
 5 mm, round</description>
 <packageinstances>
 <packageinstance name="LED5MM"/>
 </packageinstances>
 </package3d>
-<package3d name="LSU260" urn="urn:adsk.eagle:package:15805/1" type="box" library_version="4">
+<package3d name="LSU260" urn="urn:adsk.eagle:package:15805/1" type="box">
 <description>LED
 1 mm, round, Siemens</description>
 <packageinstances>
 <packageinstance name="LSU260"/>
 </packageinstances>
 </package3d>
-<package3d name="LZR181" urn="urn:adsk.eagle:package:15808/1" type="box" library_version="4">
+<package3d name="LZR181" urn="urn:adsk.eagle:package:15808/1" type="box">
 <description>LED BLOCK
 1 LED, Siemens</description>
 <packageinstances>
 <packageinstance name="LZR181"/>
 </packageinstances>
 </package3d>
-<package3d name="Q62902-B152" urn="urn:adsk.eagle:package:15803/1" type="box" library_version="4">
+<package3d name="Q62902-B152" urn="urn:adsk.eagle:package:15803/1" type="box">
 <description>LED HOLDER
 Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B152"/>
 </packageinstances>
 </package3d>
-<package3d name="Q62902-B153" urn="urn:adsk.eagle:package:15804/1" type="box" library_version="4">
+<package3d name="Q62902-B153" urn="urn:adsk.eagle:package:15804/1" type="box">
 <description>LED HOLDER
 Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B153"/>
 </packageinstances>
 </package3d>
-<package3d name="Q62902-B155" urn="urn:adsk.eagle:package:15807/1" type="box" library_version="4">
+<package3d name="Q62902-B155" urn="urn:adsk.eagle:package:15807/1" type="box">
 <description>LED HOLDER
 Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B155"/>
 </packageinstances>
 </package3d>
-<package3d name="Q62902-B156" urn="urn:adsk.eagle:package:15806/1" type="box" library_version="4">
+<package3d name="Q62902-B156" urn="urn:adsk.eagle:package:15806/1" type="box">
 <description>LED HOLDER
 Siemens</description>
 <packageinstances>
 <packageinstance name="Q62902-B156"/>
 </packageinstances>
 </package3d>
-<package3d name="SFH480" urn="urn:adsk.eagle:package:15809/1" type="box" library_version="4">
+<package3d name="SFH480" urn="urn:adsk.eagle:package:15809/1" type="box">
 <description>IR LED
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking
@@ -18737,7 +18296,7 @@ Inifineon</description>
 <packageinstance name="SFH480"/>
 </packageinstances>
 </package3d>
-<package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" type="box" library_version="4">
+<package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" type="box">
 <description>IR LED
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking
@@ -18746,35 +18305,35 @@ Inifineon</description>
 <packageinstance name="SFH482"/>
 </packageinstances>
 </package3d>
-<package3d name="U57X32" urn="urn:adsk.eagle:package:15789/1" type="box" library_version="4">
+<package3d name="U57X32" urn="urn:adsk.eagle:package:15789/1" type="box">
 <description>LED
 rectangle, 5.7 x 3.2 mm</description>
 <packageinstances>
 <packageinstance name="U57X32"/>
 </packageinstances>
 </package3d>
-<package3d name="IRL80A" urn="urn:adsk.eagle:package:15810/1" type="box" library_version="4">
+<package3d name="IRL80A" urn="urn:adsk.eagle:package:15810/1" type="box">
 <description>IR LED
 IR transmitter Siemens</description>
 <packageinstances>
 <packageinstance name="IRL80A"/>
 </packageinstances>
 </package3d>
-<package3d name="P-LCC-2" urn="urn:adsk.eagle:package:15817/1" type="box" library_version="4">
+<package3d name="P-LCC-2" urn="urn:adsk.eagle:package:15817/1" type="box">
 <description>TOPLED® High-optical Power LED (HOP)
 Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-2"/>
 </packageinstances>
 </package3d>
-<package3d name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:package:15811/1" type="box" library_version="4">
+<package3d name="OSRAM-MINI-TOP-LED" urn="urn:adsk.eagle:package:15811/1" type="box">
 <description>BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
 <packageinstances>
 <packageinstance name="OSRAM-MINI-TOP-LED"/>
 </packageinstances>
 </package3d>
-<package3d name="OSRAM-SIDELED" urn="urn:adsk.eagle:package:15812/1" type="box" library_version="4">
+<package3d name="OSRAM-SIDELED" urn="urn:adsk.eagle:package:15812/1" type="box">
 <description>Super SIDELED® High-Current LED
 LG A672, LP A672 
 Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
@@ -18782,35 +18341,35 @@ Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</descripti
 <packageinstance name="OSRAM-SIDELED"/>
 </packageinstances>
 </package3d>
-<package3d name="SMART-LED" urn="urn:adsk.eagle:package:15814/1" type="box" library_version="4">
+<package3d name="SMART-LED" urn="urn:adsk.eagle:package:15814/1" type="box">
 <description>SmartLEDTM Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
 <packageinstances>
 <packageinstance name="SMART-LED"/>
 </packageinstances>
 </package3d>
-<package3d name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:package:15813/1" type="box" library_version="4">
+<package3d name="P-LCC-2-TOPLED-RG" urn="urn:adsk.eagle:package:15813/1" type="box">
 <description>Hyper TOPLED® RG Hyper-Bright LED
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-2-TOPLED-RG"/>
 </packageinstances>
 </package3d>
-<package3d name="MICRO-SIDELED" urn="urn:adsk.eagle:package:15815/1" type="box" library_version="4">
+<package3d name="MICRO-SIDELED" urn="urn:adsk.eagle:package:15815/1" type="box">
 <description>Hyper Micro SIDELED®
 Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
 <packageinstances>
 <packageinstance name="MICRO-SIDELED"/>
 </packageinstances>
 </package3d>
-<package3d name="P-LCC-4" urn="urn:adsk.eagle:package:15816/1" type="box" library_version="4">
+<package3d name="P-LCC-4" urn="urn:adsk.eagle:package:15816/1" type="box">
 <description>Power TOPLED®
 Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
 <packageinstances>
 <packageinstance name="P-LCC-4"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="4">
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB Q993
 Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
@@ -18818,7 +18377,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <packageinstance name="CHIP-LED0603"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="4">
+<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB R99A
 Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
@@ -18826,35 +18385,35 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <packageinstance name="CHIP-LED0805"/>
 </packageinstances>
 </package3d>
-<package3d name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:package:15820/1" type="box" library_version="4">
+<package3d name="MINI-TOPLED-SANTANA" urn="urn:adsk.eagle:package:15820/1" type="box">
 <description>Mini TOPLED Santana®
 Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <packageinstances>
 <packageinstance name="MINI-TOPLED-SANTANA"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/2" type="model" library_version="4">
+<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/2" type="model">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_0805"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/2" type="model" library_version="4">
+<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/2" type="model">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_1206"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="4">
+<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <packageinstances>
 <packageinstance name="CHIPLED_0603"/>
 </packageinstances>
 </package3d>
-<package3d name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:package:15824/1" type="box" library_version="4">
+<package3d name="CHIPLED-0603-TTW" urn="urn:adsk.eagle:package:15824/1" type="box">
 <description>CHIPLED-0603
 Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603
 Package able to withstand TTW-soldering heat
@@ -18864,7 +18423,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="CHIPLED-0603-TTW"/>
 </packageinstances>
 </package3d>
-<package3d name="SMARTLED-TTW" urn="urn:adsk.eagle:package:15825/1" type="box" library_version="4">
+<package3d name="SMARTLED-TTW" urn="urn:adsk.eagle:package:15825/1" type="box">
 <description>SmartLED TTW
 Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603
 Package able to withstand TTW-soldering heat
@@ -18874,42 +18433,42 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="SMARTLED-TTW"/>
 </packageinstances>
 </package3d>
-<package3d name="LUMILED+" urn="urn:adsk.eagle:package:15826/1" type="box" library_version="4">
+<package3d name="LUMILED+" urn="urn:adsk.eagle:package:15826/1" type="box">
 <description>Lumileds Lighting. LUXEON® with cool pad
 Source: K2.pdf</description>
 <packageinstances>
 <packageinstance name="LUMILED+"/>
 </packageinstances>
 </package3d>
-<package3d name="LUMILED" urn="urn:adsk.eagle:package:15827/1" type="box" library_version="4">
+<package3d name="LUMILED" urn="urn:adsk.eagle:package:15827/1" type="box">
 <description>Lumileds Lighting. LUXEON® without cool pad
 Source: K2.pdf</description>
 <packageinstances>
 <packageinstance name="LUMILED"/>
 </packageinstances>
 </package3d>
-<package3d name="LED10MM" urn="urn:adsk.eagle:package:15828/1" type="box" library_version="4">
+<package3d name="LED10MM" urn="urn:adsk.eagle:package:15828/1" type="box">
 <description>LED
 10 mm, round</description>
 <packageinstances>
 <packageinstance name="LED10MM"/>
 </packageinstances>
 </package3d>
-<package3d name="KA-3528ASYC" urn="urn:adsk.eagle:package:15831/1" type="box" library_version="4">
+<package3d name="KA-3528ASYC" urn="urn:adsk.eagle:package:15831/1" type="box">
 <description>SURFACE MOUNT LED LAMP 3.5x2.8mm
 Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1)</description>
 <packageinstances>
 <packageinstance name="KA-3528ASYC"/>
 </packageinstances>
 </package3d>
-<package3d name="SML0805" urn="urn:adsk.eagle:package:15830/1" type="box" library_version="4">
+<package3d name="SML0805" urn="urn:adsk.eagle:package:15830/1" type="box">
 <description>SML0805-2CW-TR (0805 PROFILE) COOL WHITE
 Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <packageinstances>
 <packageinstance name="SML0805"/>
 </packageinstances>
 </package3d>
-<package3d name="SML1206" urn="urn:adsk.eagle:package:15829/1" type="box" library_version="4">
+<package3d name="SML1206" urn="urn:adsk.eagle:package:15829/1" type="box">
 <description>SML10XXKH-TR (HIGH INTENSITY) LED
 
 SML10R3KH-TRULTRA RED
@@ -18928,7 +18487,7 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <packageinstance name="SML1206"/>
 </packageinstances>
 </package3d>
-<package3d name="SML0603" urn="urn:adsk.eagle:package:15832/1" type="box" library_version="4">
+<package3d name="SML0603" urn="urn:adsk.eagle:package:15832/1" type="box">
 <description>SML0603-XXX (HIGH INTENSITY) LED
 
 AG3KAQUA GREEN
@@ -18948,7 +18507,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="4">
+<symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -18974,7 +18533,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/9" prefix="LED" uservalue="yes" library_version="4">
+<deviceset name="LED" prefix="LED" uservalue="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -19502,387 +19061,828 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
-<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
-This library contains power, ground, and voltage-supply symbols.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
-<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
-</symbol>
-<symbol name="VDD" urn="urn:adsk.eagle:symbol:39424/1" library_version="1">
-<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VDD" urn="urn:adsk.eagle:component:39445/1" prefix="SUPPLY" library_version="1">
-<description>&lt;h3&gt;VDD Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Positive voltage supply (traditionally for a CMOS device, D=drain).&lt;/p&gt;</description>
-<gates>
-<gate name="VDD" symbol="VDD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-ptr500" urn="urn:adsk.eagle:library:181">
-<description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
-Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
-Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
-Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
-&lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Alte Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Neue Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2-5.0-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2DS,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2DS-5.0-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AKZ505/2,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AKZ500/2-5.08-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TABLE&gt;
-
+<library name="dc-dc-converter">
+<description>&lt;b&gt;DC-DC Converters&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="AK300/4" urn="urn:adsk.eagle:footprint:9844/1" library_version="2">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<wire x1="-10.0838" y1="6.223" x2="0" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="-6.223" x2="-4.4958" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-0.4318" y1="0.254" x2="-0.4318" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="-6.223" x2="-0.4318" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-0.4318" y1="-6.223" x2="0" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="-6.223" x2="-5.5118" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="-6.223" x2="-4.4958" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-9.5758" y1="0.254" x2="-9.5758" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-10.0838" y1="-6.223" x2="-9.5758" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-9.5758" y1="-6.223" x2="-5.5118" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="-4.318" x2="-0.4318" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="-4.318" x2="-4.4958" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-0.4318" y1="-4.318" x2="-0.4318" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="-4.318" x2="-9.5758" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="-4.318" x2="-5.5118" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-9.5758" y1="-4.318" x2="-9.5758" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="-0.8128" y1="-3.683" x2="-0.8128" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-0.8128" y1="-3.683" x2="-4.1148" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-4.1148" y1="-3.683" x2="-4.1148" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-5.8928" y1="-3.683" x2="-5.8928" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-5.8928" y1="-3.683" x2="-9.1948" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-9.1948" y1="-3.683" x2="-9.1948" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-9.1948" y1="-0.508" x2="-8.8138" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-5.8928" y1="-0.508" x2="-6.2738" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-4.1148" y1="-0.508" x2="-3.7338" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-0.8128" y1="-0.508" x2="-1.1938" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-10.0838" y1="-6.223" x2="-10.0838" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-10.0838" y1="0.635" x2="-10.0838" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-10.0838" y1="3.175" x2="0" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-10.0838" y1="3.175" x2="-10.0838" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="3.429" x2="-4.4958" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="5.969" x2="-0.4318" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="-0.4318" y1="5.969" x2="-0.4318" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="-0.4318" y1="3.429" x2="-4.4958" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="3.429" x2="-5.5118" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="3.429" x2="-9.5758" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="-9.5758" y1="3.429" x2="-9.5758" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="5.969" x2="-9.5758" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="-0.9956" y1="4.0849" x2="-0.9399" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
-<wire x1="-3.937" y1="4.1656" x2="-0.9492" y2="4.1188" width="0.1524" layer="21" curve="75.528719"/>
-<wire x1="-4.0894" y1="5.0038" x2="-0.935" y2="5.0588" width="0.1524" layer="21" curve="-100.022513"/>
-<wire x1="-4.0386" y1="5.0546" x2="-3.8949" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
-<wire x1="-4.0894" y1="4.445" x2="-1.0414" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-3.9624" y1="4.318" x2="-0.9144" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-6.0756" y1="4.0849" x2="-6.0199" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
-<wire x1="-9.017" y1="4.1656" x2="-6.0292" y2="4.1188" width="0.1524" layer="21" curve="75.528719"/>
-<wire x1="-9.1694" y1="5.0038" x2="-6.015" y2="5.0588" width="0.1524" layer="21" curve="-100.022513"/>
-<wire x1="-9.1186" y1="5.0546" x2="-8.9749" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
-<wire x1="-9.1694" y1="4.445" x2="-6.1214" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="-9.0424" y1="4.318" x2="-5.9944" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-9.5758" y1="0.254" x2="-9.0678" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="0.254" x2="-5.8928" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-5.8928" y1="0.254" x2="-9.0678" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-10.0838" y1="0.635" x2="-9.0678" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-9.0678" y1="0.635" x2="-5.8928" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-5.8928" y1="0.635" x2="-4.1148" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-0.9398" y1="0.635" x2="-4.1148" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.4318" y1="0.254" x2="-0.9398" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-4.4958" y1="0.254" x2="-4.1148" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-4.1148" y1="0.254" x2="-0.9398" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="10.0838" y1="6.223" x2="10.0838" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="6.223" x2="10.5918" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="10.5918" y1="6.223" x2="10.5918" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="10.5918" y1="1.397" x2="10.0838" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="10.5918" y1="-5.461" x2="10.0838" y2="-5.207" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="-5.207" x2="10.0838" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="10.5918" y1="-3.81" x2="10.0838" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="-4.064" x2="10.0838" y2="-5.207" width="0.1524" layer="21"/>
-<wire x1="10.5918" y1="-3.81" x2="10.5918" y2="-5.461" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="-6.223" x2="5.5118" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="9.5758" y1="0.254" x2="9.5758" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="-6.223" x2="9.5758" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="9.5758" y1="-6.223" x2="10.0838" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="-6.223" x2="4.4958" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="-6.223" x2="5.5118" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="0.4318" y1="0.254" x2="0.4318" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="0.4318" y1="-6.223" x2="4.4958" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="-4.318" x2="9.5758" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="-4.318" x2="5.5118" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="9.5758" y1="-4.318" x2="9.5758" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="-4.318" x2="0.4318" y2="-4.318" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="-4.318" x2="4.4958" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="0.4318" y1="-4.318" x2="0.4318" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="9.1948" y1="-3.683" x2="9.1948" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="9.1948" y1="-3.683" x2="5.8928" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="5.8928" y1="-3.683" x2="5.8928" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="4.1148" y1="-3.683" x2="4.1148" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="4.1148" y1="-3.683" x2="0.8128" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="0.8128" y1="-3.683" x2="0.8128" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="0.8128" y1="-0.508" x2="1.1938" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="4.1148" y1="-0.508" x2="3.7338" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="5.8928" y1="-0.508" x2="6.2738" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="9.1948" y1="-0.508" x2="8.8138" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="0" y1="-6.223" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="1.651" x2="10.0838" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="0.635" x2="10.0838" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="0" y1="3.175" x2="10.0838" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="0" y1="3.175" x2="0" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="3.175" x2="10.0838" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="3.429" x2="5.5118" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="5.969" x2="9.5758" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="9.5758" y1="5.969" x2="9.5758" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="9.5758" y1="3.429" x2="5.5118" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="3.429" x2="4.4958" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="3.429" x2="0.4318" y2="3.429" width="0.1524" layer="21"/>
-<wire x1="0.4318" y1="3.429" x2="0.4318" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="5.969" x2="0.4318" y2="5.969" width="0.1524" layer="21"/>
-<wire x1="9.012" y1="4.0849" x2="9.0677" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
-<wire x1="6.0706" y1="4.1656" x2="9.0584" y2="4.1189" width="0.1524" layer="21" curve="75.530157"/>
-<wire x1="5.9182" y1="5.0038" x2="9.0724" y2="5.0586" width="0.1524" layer="21" curve="-100.0232"/>
-<wire x1="5.969" y1="5.0546" x2="6.1127" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
-<wire x1="5.9182" y1="4.445" x2="8.9662" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="6.0452" y1="4.318" x2="9.0932" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="3.932" y1="4.0849" x2="3.9877" y2="5.0545" width="0.1524" layer="21" curve="90.564135"/>
-<wire x1="0.9906" y1="4.1656" x2="3.9784" y2="4.1189" width="0.1524" layer="21" curve="75.530157"/>
-<wire x1="0.8382" y1="5.0038" x2="3.9924" y2="5.0586" width="0.1524" layer="21" curve="-100.0232"/>
-<wire x1="0.889" y1="5.0546" x2="1.0327" y2="4.1297" width="0.1524" layer="21" curve="104.208873"/>
-<wire x1="0.8382" y1="4.445" x2="3.8862" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="0.9652" y1="4.318" x2="4.0132" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="0.4318" y1="0.254" x2="0.9398" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="4.4958" y1="0.254" x2="4.1148" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="4.1148" y1="0.254" x2="0.9398" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="0" y1="0.635" x2="0.9398" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.9398" y1="0.635" x2="4.1148" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="4.1148" y1="0.635" x2="5.8928" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="0.635" x2="9.0678" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="9.0678" y1="0.635" x2="5.8928" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="9.5758" y1="0.254" x2="9.0678" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="0.254" x2="5.8928" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="5.8928" y1="0.254" x2="9.0678" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="0" y1="-6.223" x2="0.4318" y2="-6.223" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-0.9398" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="6.223" x2="0" y2="6.223" width="0.1524" layer="21"/>
-<pad name="1" x="-7.493" y="0" drill="1.3208" shape="long" rot="R90"/>
-<pad name="2" x="-2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
-<pad name="3" x="2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
-<pad name="4" x="7.493" y="0" drill="1.3208" shape="long" rot="R90"/>
-<text x="-10.0838" y="6.731" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-10.0838" y="-8.636" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-9.525" y="1.27" size="1.27" layer="21" ratio="10">1</text>
-<text x="-4.445" y="1.27" size="1.27" layer="21" ratio="10">2</text>
-<text x="0.635" y="1.27" size="1.27" layer="21" ratio="10">3</text>
-<text x="5.715" y="1.27" size="1.27" layer="21" ratio="10">4</text>
-<rectangle x1="-8.8138" y1="-2.54" x2="-6.2738" y2="0.254" layer="51"/>
-<rectangle x1="-3.7338" y1="-2.54" x2="-1.1938" y2="0.254" layer="51"/>
-<rectangle x1="1.1938" y1="-2.54" x2="3.7338" y2="0.254" layer="51"/>
-<rectangle x1="6.2738" y1="-2.54" x2="8.8138" y2="0.254" layer="51"/>
+<package name="4SIL" urn="urn:adsk.eagle:footprint:12297/1" locally_modified="yes">
+<description>&lt;b&gt;4 Pin DIL Package&lt;/b&gt;&lt;p&gt;
+Motien Technology Co.,Ltd.&lt;br&gt;
+Source: va-serie.pdf.pdf</description>
+<wire x1="5.75" y1="-1.15" x2="-5.75" y2="-1.15" width="0.2032" layer="21"/>
+<wire x1="-5.75" y1="-1.15" x2="-5.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="-5.75" y1="3.65" x2="5.75" y2="3.65" width="0.2032" layer="21"/>
+<wire x1="5.75" y1="3.65" x2="5.75" y2="-1.15" width="0.2032" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.8" diameter="1.6764" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="0.8" diameter="1.6764" shape="square"/>
+<pad name="3" x="1.27" y="0" drill="0.8" diameter="1.6764" shape="square"/>
+<pad name="4" x="3.81" y="0" drill="0.8" diameter="1.6764" shape="square"/>
+<text x="-5.08" y="5.08" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="8DIL-4" urn="urn:adsk.eagle:footprint:12298/1">
+<description>&lt;b&gt;8 DIL Package&lt;/b&gt; 4 Pads&lt;p&gt;
+Motien Technology Co.,Ltd.&lt;br&gt;
+Source: va-serie.pdf.pdf</description>
+<wire x1="-6.2484" y1="-4.9784" x2="-6.2484" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="-6.2484" y1="4.9784" x2="6.2484" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="6.2484" y1="4.9784" x2="6.2484" y2="-4.9784" width="0.2032" layer="21"/>
+<wire x1="6.2484" y1="-4.9784" x2="-6.2484" y2="-4.9784" width="0.2032" layer="21"/>
+<circle x="-5.2197" y="-2.8067" radius="0.6477" width="0" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.7" diameter="1.27"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.7" diameter="1.27"/>
+<pad name="5" x="3.81" y="3.81" drill="0.7" diameter="1.27"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.7" diameter="1.27"/>
+<text x="-5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="8DIL-6" urn="urn:adsk.eagle:footprint:12296/1">
+<description>&lt;b&gt;8 DIL Package&lt;/b&gt; 6 Pads&lt;p&gt;
+Motien Technology Co.,Ltd.&lt;br&gt;
+Source: VA-D01.pdf</description>
+<wire x1="-6.2484" y1="-4.9784" x2="-6.2484" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="-6.2484" y1="4.9784" x2="6.2484" y2="4.9784" width="0.2032" layer="21"/>
+<wire x1="6.2484" y1="4.9784" x2="6.2484" y2="-4.9784" width="0.2032" layer="21"/>
+<wire x1="6.2484" y1="-4.9784" x2="-6.2484" y2="-4.9784" width="0.2032" layer="21"/>
+<circle x="-5.2197" y="-2.8067" radius="0.6477" width="0" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.7" diameter="1.27"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.7" diameter="1.27"/>
+<pad name="5" x="3.81" y="3.81" drill="0.7" diameter="1.27"/>
+<pad name="6" x="1.27" y="3.81" drill="0.7" diameter="1.27"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.7" diameter="1.27"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.7" diameter="1.27"/>
+<text x="-5.715" y="-6.985" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="AK300/4" urn="urn:adsk.eagle:package:9879/1" type="box" library_version="2">
-<description>CONNECTOR</description>
+<package3d name="4SIL" urn="urn:adsk.eagle:package:12316/1" locally_modified="yes" type="box">
+<description>4 Pin DIL Package
+Motien Technology Co.,Ltd.
+Source: va-serie.pdf.pdf</description>
 <packageinstances>
-<packageinstance name="AK300/4"/>
+<packageinstance name="4SIL"/>
+</packageinstances>
+</package3d>
+<package3d name="8DIL-4" urn="urn:adsk.eagle:package:12315/1" type="box">
+<description>8 DIL Package 4 Pads
+Motien Technology Co.,Ltd.
+Source: va-serie.pdf.pdf</description>
+<packageinstances>
+<packageinstance name="8DIL-4"/>
+</packageinstances>
+</package3d>
+<package3d name="8DIL-6" urn="urn:adsk.eagle:package:12314/1" type="box">
+<description>8 DIL Package 6 Pads
+Motien Technology Co.,Ltd.
+Source: VA-D01.pdf</description>
+<packageinstances>
+<packageinstance name="8DIL-6"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="KL" urn="urn:adsk.eagle:symbol:9841/1" library_version="2">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="KLV" urn="urn:adsk.eagle:symbol:9842/1" library_version="2">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="-3.81" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<symbol name="DC+">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.4064" layer="94"/>
+<text x="-10.16" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-8.636" y="-6.731" size="1.27" layer="94">DC/DC CONVERTER</text>
+<pin name="+VIN" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="-VIN" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="+VOUT" x="12.7" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="-VOUT" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AK300/4" urn="urn:adsk.eagle:component:9909/2" prefix="X" uservalue="yes" library_version="2">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
+<deviceset name="VA-*?" prefix="DC">
+<description>&lt;b&gt;DC DC Converter&lt;/b&gt; Single Output, 1 Watt&lt;p&gt;
+Motien Technology Co.,Ltd.&lt;br&gt;
+Source: &lt;a href="http://www.motien.com.tw/data_sheet/VA-1%28H%29.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <gates>
-<gate name="-1" symbol="KL" x="0" y="7.62" addlevel="always"/>
-<gate name="-2" symbol="KL" x="0" y="2.54" addlevel="always"/>
-<gate name="-3" symbol="KL" x="0" y="-2.54" addlevel="always"/>
-<gate name="-4" symbol="KLV" x="0" y="-7.62" addlevel="always"/>
+<gate name="G$1" symbol="DC+" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="AK300/4">
+<device name="S1" package="4SIL">
 <connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-<connect gate="-3" pin="KL" pad="3"/>
-<connect gate="-4" pin="KL" pad="4"/>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9879/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
+<technology name="0505">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="resistor-shunt">
-<description>&lt;b&gt;Isabellenhuette SMD Shunt Resistors&lt;/b&gt;&lt;p&gt;
-www.isabellenhuette.de&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="PMD" urn="urn:adsk.eagle:footprint:25201/1" locally_modified="yes">
-<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
-<wire x1="-7.44" y1="-4.297" x2="7.948" y2="-4.297" width="0.2032" layer="21"/>
-<wire x1="7.948" y1="-4.297" x2="7.948" y2="3.789" width="0.2032" layer="21"/>
-<wire x1="7.948" y1="3.789" x2="-7.44" y2="3.789" width="0.2032" layer="21"/>
-<wire x1="-7.44" y1="3.789" x2="-7.44" y2="-4.297" width="0.2032" layer="21"/>
-<smd name="2" x="-4.7498" y="-0.254" dx="5" dy="7.5" layer="1"/>
-<smd name="1" x="5.2578" y="-0.254" dx="5" dy="7.5" layer="1"/>
-<text x="-3.3274" y="4.699" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.9972" y="-6.1214" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="PMD" urn="urn:adsk.eagle:package:25216/1" type="box">
-<description>SMD SHUNT RESISTOR</description>
-<packageinstances>
-<packageinstance name="PMD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="R">
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PMD" prefix="R" uservalue="yes">
-<description>&lt;b&gt;SMD SHUNT RESISTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0" swaplevel="2"/>
-</gates>
-<devices>
-<device name="" package="PMD">
+<device name="D1" package="8DIL-4">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="+VIN" pad="4"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:25216/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12315/1"/>
 </package3dinstances>
 <technologies>
-<technology name="">
+<technology name="0505">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S" package="4SIL">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0505">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="8DIL-4">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="4"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12315/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0505">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DD1" package="8DIL-6">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="4"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12314/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0505">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S1.5" package="4SIL">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12316/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0505">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D1.5" package="8DIL-6">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="4"/>
+<connect gate="G$1" pin="+VOUT" pad="5"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12314/1"/>
+</package3dinstances>
+<technologies>
+<technology name="0505">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0509">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0512">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0515">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="0524">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1205">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1209">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1212">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1215">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="1224">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2405">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2409">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2412">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2415">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2424">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19901,12 +19901,11 @@ www.isabellenhuette.de&lt;p&gt;
 </classes>
 <parts>
 <part name="T1" library="hlw8012" deviceset="HLW8012" device="" package3d_urn="urn:adsk.eagle:package:30987/2"/>
-<part name="DC1" library="dc-dc-converter" library_urn="urn:adsk.eagle:library:208" deviceset="VA-*?" device="S" package3d_urn="urn:adsk.eagle:package:12316/1" technology="1205"/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="DC1" library="dc-dc-converter" deviceset="VA-*?" device="S1" package3d_urn="urn:adsk.eagle:package:12316/1" technology="0505" value="VA-0505S1"/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:8332/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="0.5K"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10K"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="5K"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1K"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1K"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="1K"/>
@@ -19919,21 +19918,19 @@ www.isabellenhuette.de&lt;p&gt;
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33nF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="33nF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
+<part name="LED1" library="led" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="0.5K"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="0.5K"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10K"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="10K"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="2K"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0810" package3d_urn="urn:adsk.eagle:package:23401/2" value="100nF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-0405" package3d_urn="urn:adsk.eagle:package:23397/2" value="10uF"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="X1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK300/4" device="" package3d_urn="urn:adsk.eagle:package:9879/1"/>
 <part name="R13" library="resistor-shunt" deviceset="PMD" device="" package3d_urn="urn:adsk.eagle:package:25216/1"/>
@@ -19951,10 +19948,6 @@ www.isabellenhuette.de&lt;p&gt;
 <attribute name="NAME" x="-35.56" y="53.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-35.56" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="OK1" gate="A" x="71.12" y="-27.94" smashed="yes">
-<attribute name="NAME" x="64.135" y="-22.225" size="1.778" layer="95"/>
-<attribute name="VALUE" x="64.135" y="-35.56" size="1.778" layer="96"/>
-</instance>
 <instance part="OK2" gate="A" x="68.58" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="75.565" y="31.115" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="75.565" y="17.78" size="1.778" layer="96" rot="MR0"/>
@@ -19963,9 +19956,9 @@ www.isabellenhuette.de&lt;p&gt;
 <attribute name="VALUE" x="130.81" y="-10.16" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="130.81" y="5.842" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="R1" gate="G$1" x="83.82" y="27.94" smashed="yes">
-<attribute name="NAME" x="80.01" y="29.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="24.638" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="88.9" y="22.86" smashed="yes">
+<attribute name="NAME" x="85.09" y="24.3586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.09" y="19.558" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="53.34" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="51.8414" y="34.29" size="1.778" layer="95" rot="R90"/>
@@ -20032,28 +20025,20 @@ www.isabellenhuette.de&lt;p&gt;
 <instance part="SUPPLY2" gate="VDD" x="15.24" y="12.7" smashed="yes">
 <attribute name="VALUE" x="15.24" y="15.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="OK3" gate="A" x="71.12" y="-2.54" smashed="yes">
-<attribute name="NAME" x="69.215" y="3.175" size="1.778" layer="95"/>
-<attribute name="VALUE" x="64.135" y="-10.16" size="1.778" layer="96"/>
+<instance part="OK3" gate="A" x="63.5" y="5.08" smashed="yes">
+<attribute name="NAME" x="61.595" y="10.795" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.515" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="45.72" y="15.24" smashed="yes">
 <attribute name="VALUE" x="45.72" y="14.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R14" gate="G$1" x="48.26" y="2.54" smashed="yes">
-<attribute name="NAME" x="44.45" y="4.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.45" y="6.858" size="1.778" layer="96"/>
+<instance part="R14" gate="G$1" x="45.72" y="2.54" smashed="yes">
+<attribute name="NAME" x="41.91" y="4.0386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="41.91" y="6.858" size="1.778" layer="96"/>
 </instance>
-<instance part="R15" gate="G$1" x="48.26" y="-2.54" smashed="yes">
-<attribute name="NAME" x="44.45" y="-8.6614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="44.45" y="-5.842" size="1.778" layer="96"/>
-</instance>
-<instance part="R16" gate="G$1" x="83.82" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.3214" y="1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.122" y="1.27" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R17" gate="G$1" x="83.82" y="-20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.3214" y="-24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.122" y="-24.13" size="1.778" layer="96" rot="R90"/>
+<instance part="R16" gate="G$1" x="91.44" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.9414" y="8.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.742" y="8.89" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SV2" gate="G$1" x="-48.26" y="48.26" smashed="yes">
 <attribute name="VALUE" x="-49.53" y="40.64" size="1.778" layer="96"/>
@@ -20097,25 +20082,11 @@ www.isabellenhuette.de&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
-<segment>
-<pinref part="OK2" gate="A" pin="A"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="40.64" y1="-7.62" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="OK3" gate="A" pin="C"/>
-<wire x1="60.96" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-5.08" x2="55.88" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="C"/>
-<wire x1="55.88" y1="-17.78" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-30.48" x2="60.96" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="55.88" y="-17.78"/>
 <junction x="40.64" y="-17.78"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="-17.78" x2="40.64" y2="-17.78" width="0.1524" layer="91"/>
@@ -20190,6 +20161,11 @@ www.isabellenhuette.de&lt;p&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="VDD" pin="VDD"/>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="OK3" gate="A" pin="A"/>
+<wire x1="53.34" y1="7.62" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="7.62" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
+<junction x="53.34" y="45.72"/>
 </segment>
 <segment>
 <pinref part="DC1" gate="G$1" pin="+VOUT"/>
@@ -20207,100 +20183,39 @@ www.isabellenhuette.de&lt;p&gt;
 <junction x="2.54" y="50.8"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-2.54" x2="53.34" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="A"/>
-<wire x1="53.34" y1="-25.4" x2="60.96" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="OK3" gate="A" pin="A"/>
-<wire x1="60.96" y1="2.54" x2="60.96" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="T1" gate="G$1" pin="CF1"/>
-<wire x1="43.18" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="T1" gate="G$1" pin="CF"/>
-<wire x1="43.18" y1="-2.54" x2="40.64" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="OK3" gate="A" pin="COL"/>
-<wire x1="78.74" y1="0" x2="83.82" y2="0" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="7.62" x2="91.44" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<junction x="83.82" y="0"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="0" x2="91.44" y2="0" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="0" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="116.84" y1="-25.4" x2="116.84" y2="0" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="116.84" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="COL"/>
-<wire x1="78.74" y1="-25.4" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<junction x="83.82" y="-25.4"/>
-<wire x1="116.84" y1="-25.4" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="7.62" x2="114.3" y2="7.62" width="0.1524" layer="91"/>
+<junction x="91.44" y="7.62"/>
+<wire x1="114.3" y1="7.62" x2="114.3" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="114.3" y1="2.54" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="OK3" gate="A" pin="EMIT"/>
-<wire x1="78.74" y1="-5.08" x2="93.98" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="-5.08" x2="93.98" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="EMIT"/>
-<wire x1="78.74" y1="-30.48" x2="93.98" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="-5.08" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-5.08" x2="106.68" y2="5.08" width="0.1524" layer="91"/>
-<junction x="93.98" y="-5.08"/>
+<wire x1="71.12" y1="2.54" x2="106.68" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="2.54" x2="106.68" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="5"/>
 <wire x1="106.68" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="OK2" gate="A" pin="C"/>
-<wire x1="78.74" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="22.86" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
-<junction x="121.92" y="5.08"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="83.82" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="17.78" x2="104.14" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="10.16" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="-15.24" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-7.62" x2="104.14" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="-7.62" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-7.62" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="17.78" x2="104.14" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="104.14" y="-7.62"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="27.94" x2="119.38" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<wire x1="119.38" y1="2.54" x2="121.92" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="OK2" gate="A" pin="A"/>
+<wire x1="78.74" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="27.94" x2="91.44" y2="17.78" width="0.1524" layer="91"/>
+<junction x="91.44" y="17.78"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -20407,6 +20322,35 @@ www.isabellenhuette.de&lt;p&gt;
 <pinref part="X1" gate="-2" pin="KL"/>
 <wire x1="-58.42" y1="2.54" x2="-58.42" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="-58.42" y="-2.54"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="CF1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="OK3" gate="A" pin="C"/>
+<wire x1="50.8" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="OK2" gate="A" pin="C"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="22.86" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="-2.54" x2="121.92" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
